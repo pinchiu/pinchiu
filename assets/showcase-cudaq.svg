@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="320" viewBox="0 0 580 320">
+  <defs>
+    <linearGradient id="bg-cudaq" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#162238"/>
+    </linearGradient>
+    <linearGradient id="glow-cudaq" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#76b900" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="580" height="320" rx="12" fill="url(#bg-cudaq)" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="0" y="0" width="580" height="320" rx="12" fill="url(#glow-cudaq)"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="580" height="42" rx="12" fill="#0f172a" fill-opacity="0.8"/>
+  <circle cx="24" cy="21" r="5" fill="#ef4444"/>
+  <circle cx="40" cy="21" r="5" fill="#f59e0b"/>
+  <circle cx="56" cy="21" r="5" fill="#10b981"/>
+  <text x="76" y="26" font-family="ui-monospace, monospace" font-size="12" fill="#94a3b8">cudaq-rag-for-school · RAG Pipeline &amp; Ingestion</text>
+  <rect x="475" y="10" width="85" height="22" rx="11" fill="#76b900" fill-opacity="0.2"/>
+  <text x="517" y="25" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="600" fill="#76b900">NVIDIA AI</text>
+
+  <!-- Dual-Track Pipeline Diagram inside card -->
+  <!-- Track 1: Academic Repo -->
+  <rect x="25" y="65" width="160" height="60" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="35" y="90" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#38bdf8">GitHub Repo Ingestion</text>
+  <text x="35" y="108" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8">cuda-q-academic (.ipynb)</text>
+
+  <!-- Track 2: Web Docs -->
+  <rect x="25" y="145" width="160" height="60" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="35" y="170" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#a78bfa">Web Documentation</text>
+  <text x="35" y="188" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8">CUDA-Q Docs Crawl</text>
+
+  <!-- Center: Parser & Math Chunking -->
+  <rect x="230" y="105" width="130" height="60" rx="8" fill="#1e293b" stroke="#76b900" stroke-width="1.5"/>
+  <text x="295" y="130" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#76b900">LaTeX &amp; Markdown</text>
+  <text x="295" y="148" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#cbd5e1">Header-Aware Chunk</text>
+
+  <!-- Right: ChromaDB & LLM -->
+  <rect x="400" y="105" width="155" height="60" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="477" y="130" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#38bdf8">ChromaDB + Ollama</text>
+  <text x="477" y="148" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8">Qwen3 Embed · Gemma 4</text>
+
+  <!-- Connectors -->
+  <path d="M185,95 L207,95 L207,125 L230,125" fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <path d="M185,175 L207,175 L207,145 L230,145" fill="none" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <path d="M360,135 L400,135" fill="none" stroke="#76b900" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Terminal Preview Output at bottom -->
+  <rect x="25" y="225" width="530" height="75" rx="6" fill="#090d16" stroke="#1e293b" stroke-width="1"/>
+  <text x="40" y="248" font-family="ui-monospace, monospace" font-size="11" fill="#10b981">❯ query: "How to apply quantum Fourier transform kernel in CUDA-Q C++?"</text>
+  <text x="40" y="268" font-family="ui-monospace, monospace" font-size="11" fill="#94a3b8">✔ [Retrieved 4 chunks with math formulas from cudaq-academic / Similarity: 0.91]</text>
+  <text x="40" y="286" font-family="ui-monospace, monospace" font-size="11" fill="#38bdf8">✔ Synthesizing response via Gemma 4 with syntax-highlighted quantum circuit...</text>
+</svg>

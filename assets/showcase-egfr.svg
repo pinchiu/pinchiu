@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="320" viewBox="0 0 580 320">
+  <defs>
+    <linearGradient id="bg-egfr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0b16"/>
+      <stop offset="100%" stop-color="#241429"/>
+    </linearGradient>
+    <linearGradient id="glow-egfr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#fb923c" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="580" height="320" rx="12" fill="url(#bg-egfr)" stroke="#3f1c34" stroke-width="1.5"/>
+  <rect x="0" y="0" width="580" height="320" rx="12" fill="url(#glow-egfr)"/>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="580" height="42" rx="12" fill="#200d1e" fill-opacity="0.8"/>
+  <circle cx="24" cy="21" r="5" fill="#ef4444"/>
+  <circle cx="40" cy="21" r="5" fill="#f59e0b"/>
+  <circle cx="56" cy="21" r="5" fill="#10b981"/>
+  <text x="76" y="26" font-family="ui-monospace, monospace" font-size="12" fill="#fda4af">EGFR-TKI-Resistance-Pipeline · TCGA Genomic Analysis</text>
+  <rect x="465" y="10" width="95" height="22" rx="11" fill="#f43f5e" fill-opacity="0.25"/>
+  <text x="512" y="25" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="600" fill="#f43f5e">TCGA LUAD</text>
+
+  <!-- Gene & Locus Map -->
+  <rect x="25" y="65" width="530" height="70" rx="8" fill="#2d1228" stroke="#4a1a42" stroke-width="1"/>
+  <text x="40" y="88" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="700" fill="#fbcfe8">EGFR Tyrosine Kinase Domain (Exons 18–21)</text>
+
+  <!-- Exon bars -->
+  <rect x="40" y="102" width="105" height="18" rx="3" fill="#3b82f6"/>
+  <text x="92" y="115" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#ffffff">Exon 18 (G719X)</text>
+
+  <rect x="155" y="102" width="125" height="18" rx="3" fill="#10b981"/>
+  <text x="217" y="115" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#ffffff">Exon 19 (19del)</text>
+
+  <rect x="290" y="102" width="125" height="18" rx="3" fill="#ef4444"/>
+  <text x="352" y="115" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#ffffff">Exon 20 (T790M / ins)</text>
+
+  <rect x="425" y="102" width="115" height="18" rx="3" fill="#f59e0b"/>
+  <text x="482" y="115" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#ffffff">Exon 21 (L858R)</text>
+
+  <!-- Co-occurrence Matrix Preview / Table -->
+  <rect x="25" y="150" width="280" height="145" rx="8" fill="#1e0c1b" stroke="#4a1a42" stroke-width="1"/>
+  <text x="40" y="172" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="600" fill="#f43f5e">Mutation Co-occurrence Matrix</text>
+
+  <text x="40" y="196" font-family="ui-monospace, monospace" font-size="10" fill="#fbcfe8">L858R + T790M</text>
+  <rect x="150" y="186" width="120" height="12" rx="2" fill="#be123c"/>
+  <text x="280" y="196" font-family="ui-monospace, monospace" font-size="10" fill="#fda4af">Primary Resistance</text>
+
+  <text x="40" y="218" font-family="ui-monospace, monospace" font-size="10" fill="#fbcfe8">Exon19del + T790M</text>
+  <rect x="150" y="208" width="90" height="12" rx="2" fill="#fb7185"/>
+  <text x="250" y="218" font-family="ui-monospace, monospace" font-size="10" fill="#fda4af">Acquired Res.</text>
+
+  <text x="40" y="240" font-family="ui-monospace, monospace" font-size="10" fill="#fbcfe8">L858R + C797S</text>
+  <rect x="150" y="230" width="60" height="12" rx="2" fill="#f43f5e"/>
+  <text x="220" y="240" font-family="ui-monospace, monospace" font-size="10" fill="#fda4af">3rd-gen TKI Res.</text>
+
+  <text x="40" y="272" font-family="ui-monospace, monospace" font-size="10" fill="#10b981">✔ Dockerized Reproducible Workflow (TCGA MAF Parser)</text>
+
+  <!-- Right side: Clinical Insights Panel -->
+  <rect x="320" y="150" width="235" height="145" rx="8" fill="#1e0c1b" stroke="#4a1a42" stroke-width="1"/>
+  <text x="335" y="172" font-family="ui-sans-serif, sans-serif" font-size="11" font-weight="600" fill="#fb923c">Clinical Bio Pipeline</text>
+  <text x="335" y="195" font-family="ui-monospace, monospace" font-size="10" fill="#cbd5e1">• Data Source: TCGA GDC</text>
+  <text x="335" y="215" font-family="ui-monospace, monospace" font-size="10" fill="#cbd5e1">• Cohort: LUAD (567 patients)</text>
+  <text x="335" y="235" font-family="ui-monospace, monospace" font-size="10" fill="#cbd5e1">• Analysis: Fisher Exact Test</text>
+  <text x="335" y="255" font-family="ui-monospace, monospace" font-size="10" fill="#cbd5e1">• Output: Heatmap &amp; Odds Ratio</text>
+  <text x="335" y="278" font-family="ui-sans-serif, sans-serif" font-size="10" font-weight="600" fill="#34d399">⚡ Automated Report Generation</text>
+</svg>

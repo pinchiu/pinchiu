@@ -1,0 +1,58 @@
+{
+  "cudaq_rag": {
+    "name": "CUDA-Q RAG Assistant",
+    "repos": ["pinchiu/cudaq-rag-for-school"],
+    "category": "ai",
+    "status": "live",
+    "scale": "Dual-track RAG · ChromaDB · Local LLM",
+    "description": "Intelligent QA assistant for NVIDIA CUDA-Q quantum computing framework. Features a dual-track ingestion pipeline parsing documentation and academic GitHub repos with LaTeX formula conversion and semantic vector retrieval."
+  },
+  "egfr_pipeline": {
+    "name": "EGFR-TKI Resistance Pipeline",
+    "repos": ["pinchiu/EGFR-TKI-Resistance-Pipeline"],
+    "category": "bioinformatics",
+    "status": "oss",
+    "scale": "TCGA LUAD · 17k Python · Dockerized",
+    "description": "Cancer genomics pipeline analyzing lung adenocarcinoma (LUAD) data from TCGA. Examines co-occurrence and mutual exclusivity of sensitizing vs. resistance mutations in the EGFR kinase domain."
+  },
+  "qingjian": {
+    "name": "Qingjian 青简",
+    "repos": ["pinchiu/qingjian"],
+    "category": "systems",
+    "status": "oss",
+    "scale": "Rust engine · On-device N-gram · <1ms",
+    "description": "Cross-platform pinyin input method that displays contextual word translations alongside candidates in the language being learned. Built in Rust with zero-telemetry local dictionary."
+  },
+  "wisdom_weasel": {
+    "name": "Wisdom-Weasel",
+    "repos": ["pinchiu/Wisdom-Weasel"],
+    "category": "ai",
+    "status": "oss",
+    "scale": "IME LLM Extension",
+    "description": "LLM-powered assistant integrated into Rime (Weasel) input method engine for Chinese text autocompletion and contextual prompt suggestions."
+  },
+  "antigravity_updater": {
+    "name": "Antigravity Updater",
+    "repos": ["pinchiu/antigravity-updater-for-ubuntu"],
+    "category": "tools",
+    "status": "oss",
+    "scale": "Ubuntu Automation CLI",
+    "description": "Automated maintenance and package update tool for developer workstations running Ubuntu."
+  },
+  "wake_on_lan": {
+    "name": "Wake-on-LAN Android",
+    "repos": ["pinchiu/wake-on-lan-for-android"],
+    "category": "systems",
+    "status": "oss",
+    "scale": "Kotlin Native App",
+    "description": "Clean Android utility for waking workstations and servers over local area networks with broadcast magic packets."
+  },
+  "usb_sound": {
+    "name": "USB Sound Connect",
+    "repos": ["pinchiu/usb-sound-connect"],
+    "category": "systems",
+    "status": "oss",
+    "scale": "Low-level C++ Audio",
+    "description": "Lightweight native audio hardware connector and switcher for Linux desktop systems."
+  }
+}

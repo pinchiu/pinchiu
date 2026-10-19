@@ -1,0 +1,53 @@
+{
+  "projects": {
+    "cudaq_rag": {
+      "commits": 22,
+      "scale": "Dual-track RAG · ChromaDB · Local LLM"
+    },
+    "egfr_pipeline": {
+      "commits": 28,
+      "scale": "TCGA LUAD · 17k Python · Dockerized"
+    },
+    "qingjian": {
+      "commits": 70,
+      "scale": "Rust engine · On-device N-gram · <1ms"
+    },
+    "wisdom_weasel": {
+      "commits": 11,
+      "scale": "IME LLM Extension"
+    },
+    "antigravity_updater": {
+      "commits": 10,
+      "scale": "Ubuntu Automation CLI"
+    },
+    "wake_on_lan": {
+      "commits": 54,
+      "scale": "Kotlin Native App"
+    },
+    "usb_sound": {
+      "commits": 10,
+      "scale": "Low-level C++ Audio"
+    }
+  },
+  "languages": {
+    "repos": 7,
+    "bytes": {
+      "Python": 159386,
+      "JavaScript": 14515,
+      "CSS": 10004,
+      "HTML": 2870,
+      "Dockerfile": 734,
+      "Rust": 1940561,
+      "Shell": 47557,
+      "Inno Setup": 12023,
+      "PowerShell": 38912,
+      "C++": 2171875,
+      "C": 190855,
+      "Batchfile": 20980,
+      "NSIS": 15139,
+      "Xmake": 9657,
+      "Kotlin": 319004
+    }
+  },
+  "updated_at": "2026-10-19"
+}

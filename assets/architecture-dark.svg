@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <defs>
+    <linearGradient id="bg-arch-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="rag-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="bio-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="sys-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1100" height="520" rx="14" fill="url(#bg-arch-dark)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Top Header -->
+  <text x="40" y="44" font-family="ui-sans-serif, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#f0f6fc">Technical Architecture &amp; Engineering Pipeline</text>
+  <text x="40" y="68" font-family="ui-sans-serif, sans-serif" font-size="13" fill="#8b949e">End-to-end design across Intelligent RAG Systems, Multi-Omics Bioinformatics, and Low-Latency Systems</text>
+
+  <!-- ================= COLUMN 1: AI & RAG SYSTEMS ================= -->
+  <rect x="40" y="95" width="485" height="260" rx="10" fill="#161b22" stroke="#0284c7" stroke-width="1.2"/>
+  <rect x="40" y="95" width="485" height="34" rx="10" fill="#0284c7" fill-opacity="0.15"/>
+  <text x="56" y="118" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#38bdf8">1. Intelligent Systems &amp; RAG Architecture</text>
+
+  <!-- Flow in RAG -->
+  <!-- Step A: Ingestion -->
+  <rect x="60" y="145" width="125" height="70" rx="6" fill="#21262d" stroke="#30363d"/>
+  <text x="122" y="172" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#e6edf3">Dual-Track Ingest</text>
+  <text x="122" y="192" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">Web Crawler · Git</text>
+
+  <text x="200" y="184" font-family="ui-monospace, monospace" font-size="16" fill="#38bdf8">→</text>
+
+  <!-- Step B: Parser -->
+  <rect x="220" y="145" width="125" height="70" rx="6" fill="#21262d" stroke="#30363d"/>
+  <text x="282" y="172" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#e6edf3">Context Parser</text>
+  <text x="282" y="192" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">LaTeX · AST Chunk</text>
+
+  <text x="360" y="184" font-family="ui-monospace, monospace" font-size="16" fill="#38bdf8">→</text>
+
+  <!-- Step C: Vector & LLM -->
+  <rect x="380" y="145" width="125" height="70" rx="6" fill="#21262d" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="442" y="172" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#38bdf8">ChromaDB + LLM</text>
+  <text x="442" y="192" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">Ollama · Gemma / Qwen</text>
+
+  <!-- Metrics row -->
+  <rect x="60" y="235" width="445" height="100" rx="6" fill="#0d1117" stroke="#21262d"/>
+  <text x="75" y="260" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#7dd3fc">Key Technical Highlights:</text>
+  <text x="75" y="282" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#c9d1d9">• Semantic vector search with Qwen embeddings over CUDA-Q quantum SDK</text>
+  <text x="75" y="302" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#c9d1d9">• Header-aware notebook parsing preserving mathematical formulas</text>
+  <text x="75" y="322" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#c9d1d9">• Local offline inference eliminating cloud data leakage</text>
+
+  <!-- ================= COLUMN 2: BIOINFORMATICS & GENOMICS ================= -->
+  <rect x="575" y="95" width="485" height="260" rx="10" fill="#161b22" stroke="#e11d48" stroke-width="1.2"/>
+  <rect x="575" y="95" width="485" height="34" rx="10" fill="#e11d48" fill-opacity="0.15"/>
+  <text x="591" y="118" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#fda4af">2. Computational Biology &amp; Genomics Pipeline</text>
+
+  <!-- Flow in Bio -->
+  <!-- Step A: TCGA Ingestion -->
+  <rect x="595" y="145" width="125" height="70" rx="6" fill="#21262d" stroke="#30363d"/>
+  <text x="657" y="172" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#e6edf3">Cohort Ingestion</text>
+  <text x="657" y="192" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">TCGA LUAD / GEO</text>
+
+  <text x="735" y="184" font-family="ui-monospace, monospace" font-size="16" fill="#fb7185">→</text>
+
+  <!-- Step B: Variant Matrix -->
+  <rect x="755" y="145" width="125" height="70" rx="6" fill="#21262d" stroke="#30363d"/>
+  <text x="817" y="172" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#e6edf3">Mutation Calling</text>
+  <text x="817" y="192" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">MAF Filter · Exons</text>
+
+  <text x="895" y="184" font-family="ui-monospace, monospace" font-size="16" fill="#fb7185">→</text>
+
+  <!-- Step C: Statistical Phenotype -->
+  <rect x="915" y="145" width="125" height="70" rx="6" fill="#21262d" stroke="#e11d48" stroke-width="1.5"/>
+  <text x="977" y="172" text-anchor="middle" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#fda4af">Co-occurrence</text>
+  <text x="977" y="192" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">Resistance Matrix</text>
+
+  <!-- Metrics row -->
+  <rect x="595" y="235" width="445" height="100" rx="6" fill="#0d1117" stroke="#21262d"/>
+  <text x="610" y="260" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#fda4af">Key Analytical Capabilities:</text>
+  <text x="610" y="282" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#c9d1d9">• EGFR sensitizing (19del, L858R) vs resistance (T790M, C797S) clustering</text>
+  <text x="610" y="302" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#c9d1d9">• GEO microarray &amp; CKD NHANES epidemiological machine learning</text>
+  <text x="610" y="322" font-family="ui-sans-serif, sans-serif" font-size="11" fill="#c9d1d9">• Fully reproducible containerized workflows via Docker &amp; Docker Compose</text>
+
+  <!-- ================= FOUNDATION: SYSTEMS & TOOLS ================= -->
+  <rect x="40" y="375" width="1020" height="115" rx="10" fill="#161b22" stroke="#10b981" stroke-width="1.2"/>
+  <rect x="40" y="375" width="1020" height="30" rx="10" fill="#10b981" fill-opacity="0.15"/>
+  <text x="56" y="396" font-family="ui-sans-serif, sans-serif" font-size="13" font-weight="700" fill="#34d399">3. Core Foundation: Low-Latency Systems, Cross-Platform Desktop &amp; Tooling</text>
+
+  <g transform="translate(60, 420)">
+    <rect x="0" y="0" width="300" height="52" rx="6" fill="#21262d" stroke="#30363d"/>
+    <text x="16" y="22" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#a7f3d0">Rust Input Method Engine</text>
+    <text x="16" y="40" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">Qingjian · On-device N-gram · &lt;1ms latency</text>
+
+    <rect x="330" y="0" width="300" height="52" rx="6" fill="#21262d" stroke="#30363d"/>
+    <text x="346" y="22" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#a7f3d0">Cross-Platform Utilities</text>
+    <text x="346" y="40" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">Kotlin (WOL Android) · C++ Audio Device Mgr</text>
+
+    <rect x="660" y="0" width="300" height="52" rx="6" fill="#21262d" stroke="#30363d"/>
+    <text x="676" y="22" font-family="ui-sans-serif, sans-serif" font-size="12" font-weight="600" fill="#a7f3d0">DevOps &amp; Reproducibility</text>
+    <text x="676" y="40" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">Pixi Env · Docker Compose · GitHub Actions</text>
+  </g>
+</svg>

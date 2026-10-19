@@ -1,0 +1,45 @@
+# Automatically regenerates README.md and language SVG charts weekly from public repositories
+name: Build README
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.template.md
+      - data/projects.json
+      - scripts/build_readme.py
+      - .github/workflows/build-readme.yml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build README and Language Cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x scripts/build_readme.py
+          python3 scripts/build_readme.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md data/stats.json assets/languages-light.svg assets/languages-dark.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: rebuild README and update metrics"
+          git pull --rebase origin main
+          git push
