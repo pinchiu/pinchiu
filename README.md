@@ -78,7 +78,7 @@ Multi-tier workflow illustrating how unstructured documents, multi-omics clinica
 | **Wake-on-LAN for Android** <br> [repo](https://github.com/pinchiu/wake-on-lan-for-android) | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?logo=kotlin&logoColor=white) ![Android](https://img.shields.io/badge/-Android-3DDC84?logo=android&logoColor=white) | ![oss](https://img.shields.io/badge/-open_source-3178C6) | **54 commits** <br> Native Android | Clean and efficient network utility to wake desktop rigs and servers over local area networks with broadcast magic packets. |
 | **USB Sound Connect** <br> [repo](https://github.com/pinchiu/usb-sound-connect) | ![C++](https://img.shields.io/badge/-C++-00599C?logo=cplusplus&logoColor=white) ![Audio](https://img.shields.io/badge/-ALSA_Audio-333) | ![oss](https://img.shields.io/badge/-open_source-3178C6) | **10 commits** <br> Low-level C++ | Lightweight native audio hardware connector and device switcher for Linux audio subsystems. |
 
-<sub>Metrics re-indexed from repositories. Last updated 2026-10-19.</sub>
+<sub>Metrics re-indexed from repositories. Last updated 2026-10-25.</sub>
 
 ## 📦 Open Source Repositories
 
