@@ -21,7 +21,7 @@
       "scale": "Ubuntu Automation CLI"
     },
     "wake_on_lan": {
-      "commits": 54,
+      "commits": 63,
       "scale": "Kotlin Native App"
     },
     "usb_sound": {
@@ -37,7 +37,7 @@
       "CSS": 10004,
       "HTML": 2870,
       "Dockerfile": 734,
-      "Rust": 1940561,
+      "Rust": 2027060,
       "Shell": 47557,
       "Inno Setup": 12023,
       "PowerShell": 38912,
@@ -46,8 +46,8 @@
       "Batchfile": 20980,
       "NSIS": 15139,
       "Xmake": 9657,
-      "Kotlin": 319004
+      "Kotlin": 342006
     }
   },
-  "updated_at": "2026-10-25"
+  "updated_at": "2026-11-01"
 }
