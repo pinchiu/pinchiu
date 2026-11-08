@@ -3,13 +3,13 @@
 <text x="28" y="38" font-size="18" font-weight="700" fill="#e6edf3">Languages &amp; Code Distribution</text>
 <text x="832" y="38" font-size="13" text-anchor="end" fill="#8b949e">7 public repositories · 5.1M bytes analyzed</text>
 <clipPath id="lang-bar"><rect x="28" y="54" width="804" height="12" rx="6"/></clipPath>
-<rect x="28.0" y="54" width="344.9" height="12" fill="#f34b7d" clip-path="url(#lang-bar)"/>
-<rect x="372.9" y="54" width="321.9" height="12" fill="#dea584" clip-path="url(#lang-bar)"/>
-<rect x="694.7" y="54" width="54.3" height="12" fill="#A97BFF" clip-path="url(#lang-bar)"/>
-<rect x="749.0" y="54" width="30.3" height="12" fill="#555555" clip-path="url(#lang-bar)"/>
-<rect x="779.3" y="54" width="25.3" height="12" fill="#3572A5" clip-path="url(#lang-bar)"/>
-<rect x="804.6" y="54" width="7.6" height="12" fill="#89e051" clip-path="url(#lang-bar)"/>
-<rect x="812.2" y="54" width="6.2" height="12" fill="#012456" clip-path="url(#lang-bar)"/>
+<rect x="28.0" y="54" width="345.0" height="12" fill="#f34b7d" clip-path="url(#lang-bar)"/>
+<rect x="373.0" y="54" width="323.8" height="12" fill="#dea584" clip-path="url(#lang-bar)"/>
+<rect x="696.7" y="54" width="54.3" height="12" fill="#A97BFF" clip-path="url(#lang-bar)"/>
+<rect x="751.0" y="54" width="30.3" height="12" fill="#555555" clip-path="url(#lang-bar)"/>
+<rect x="781.4" y="54" width="25.4" height="12" fill="#3572A5" clip-path="url(#lang-bar)"/>
+<rect x="806.7" y="54" width="6.2" height="12" fill="#89e051" clip-path="url(#lang-bar)"/>
+<rect x="813.0" y="54" width="5.4" height="12" fill="#012456" clip-path="url(#lang-bar)"/>
 <rect x="818.4" y="54" width="13.6" height="12" fill="#8b949e" clip-path="url(#lang-bar)"/>
 <circle cx="34" cy="94" r="5.5" fill="#f34b7d"/>
 <text x="50" y="98" font-size="13" font-weight="600" fill="#e6edf3">C++</text>
@@ -17,28 +17,28 @@
 <text x="268" y="98" font-size="13" fill="#8b949e">2.2MB</text>
 <circle cx="436" cy="94" r="5.5" fill="#dea584"/>
 <text x="452" y="98" font-size="13" font-weight="600" fill="#e6edf3">Rust</text>
-<text x="590" y="98" font-size="13" fill="#8b949e">40.0%</text>
+<text x="590" y="98" font-size="13" fill="#8b949e">40.3%</text>
 <text x="670" y="98" font-size="13" fill="#8b949e">2.0MB</text>
 <circle cx="34" cy="122" r="5.5" fill="#A97BFF"/>
 <text x="50" y="126" font-size="13" font-weight="600" fill="#e6edf3">Kotlin</text>
 <text x="188" y="126" font-size="13" fill="#8b949e">6.8%</text>
-<text x="268" y="126" font-size="13" fill="#8b949e">342.0kB</text>
+<text x="268" y="126" font-size="13" fill="#8b949e">342.1kB</text>
 <circle cx="436" cy="122" r="5.5" fill="#555555"/>
 <text x="452" y="126" font-size="13" font-weight="600" fill="#e6edf3">C</text>
 <text x="590" y="126" font-size="13" fill="#8b949e">3.8%</text>
 <text x="670" y="126" font-size="13" fill="#8b949e">190.9kB</text>
 <circle cx="34" cy="150" r="5.5" fill="#3572A5"/>
 <text x="50" y="154" font-size="13" font-weight="600" fill="#e6edf3">Python</text>
-<text x="188" y="154" font-size="13" fill="#8b949e">3.1%</text>
-<text x="268" y="154" font-size="13" fill="#8b949e">159.4kB</text>
+<text x="188" y="154" font-size="13" fill="#8b949e">3.2%</text>
+<text x="268" y="154" font-size="13" fill="#8b949e">159.8kB</text>
 <circle cx="436" cy="150" r="5.5" fill="#89e051"/>
 <text x="452" y="154" font-size="13" font-weight="600" fill="#e6edf3">Shell</text>
-<text x="590" y="154" font-size="13" fill="#8b949e">0.9%</text>
-<text x="670" y="154" font-size="13" fill="#8b949e">47.6kB</text>
+<text x="590" y="154" font-size="13" fill="#8b949e">0.8%</text>
+<text x="670" y="154" font-size="13" fill="#8b949e">39.2kB</text>
 <circle cx="34" cy="178" r="5.5" fill="#012456"/>
 <text x="50" y="182" font-size="13" font-weight="600" fill="#e6edf3">PowerShell</text>
-<text x="188" y="182" font-size="13" fill="#8b949e">0.8%</text>
-<text x="268" y="182" font-size="13" fill="#8b949e">38.9kB</text>
+<text x="188" y="182" font-size="13" fill="#8b949e">0.7%</text>
+<text x="268" y="182" font-size="13" fill="#8b949e">33.9kB</text>
 <circle cx="436" cy="178" r="5.5" fill="#8b949e"/>
 <text x="452" y="182" font-size="13" font-weight="600" fill="#e6edf3">Other</text>
 <text x="590" y="182" font-size="13" fill="#8b949e">1.7%</text>
