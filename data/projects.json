@@ -40,12 +40,12 @@
     "description": "Automated maintenance and package update tool for developer workstations running Ubuntu."
   },
   "wake_on_lan": {
-    "name": "Wake-on-LAN Android",
+    "name": "Wake-on-LAN for Android",
     "repos": ["pinchiu/wake-on-lan-for-android"],
     "category": "systems",
-    "status": "oss",
-    "scale": "Kotlin Native App",
-    "description": "Clean Android utility for waking workstations and servers over local area networks with broadcast magic packets."
+    "status": "live",
+    "scale": "2 Android apps · Rust daemon · 3 desktop OSes",
+    "description": "Cross-platform remote power system: native Android apps plus a zero-dependency Rust daemon for wake, shutdown, reboot, sleep, hibernate, and lock over LAN, Tailscale, MQTT, or a home-phone relay."
   },
   "usb_sound": {
     "name": "USB Sound Connect",

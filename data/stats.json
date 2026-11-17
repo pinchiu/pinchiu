@@ -22,7 +22,7 @@
     },
     "wake_on_lan": {
       "commits": 70,
-      "scale": "Kotlin Native App"
+      "scale": "2 Android apps · Rust daemon · 3 desktop OSes"
     },
     "usb_sound": {
       "commits": 10,
