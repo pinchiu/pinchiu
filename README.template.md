@@ -50,7 +50,7 @@ I'm Scott, a bioinformatics and engineering student. I build small, complete sys
 
 ## 🛠 Skills & Engineering Capabilities
 
-- **Systems & Networking** — Rust daemons, Wake-on-LAN, signed UDP/TCP command protocols, MQTT, Kotlin/Android, and C++ device integration.
+- **Systems & Networking** — Rust daemons, signed UDP/TCP command protocols, MQTT, Kotlin/Android, and C++ device integration.
 - **AI & Local-First Tooling** — RAG pipelines, local LLM serving, vector search, and AST / LaTeX parsing.
 - **Computational Biology & Data Science** — Genomics data analysis, statistical modeling, and scientific Python (Pandas / NumPy / Seaborn).
 - **Tooling & Infrastructure** — Docker &amp; Compose, Pixi environments, Linux services and autostart, and GitHub Actions CI/CD.
