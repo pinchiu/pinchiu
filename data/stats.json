@@ -21,7 +21,7 @@
       "scale": "Ubuntu Automation CLI"
     },
     "wake_on_lan": {
-      "commits": 70,
+      "commits": 112,
       "scale": "2 Android apps · Rust daemon · 3 desktop OSes"
     },
     "usb_sound": {
@@ -35,9 +35,9 @@
       "Python": 159819,
       "JavaScript": 14515,
       "CSS": 10004,
-      "HTML": 2870,
+      "HTML": 36663,
       "Dockerfile": 734,
-      "Rust": 2038377,
+      "Rust": 2168017,
       "Shell": 39197,
       "Inno Setup": 12023,
       "PowerShell": 33899,
@@ -46,8 +46,8 @@
       "Batchfile": 20980,
       "NSIS": 15139,
       "Xmake": 9657,
-      "Kotlin": 342122
+      "Kotlin": 497158
     }
   },
-  "updated_at": "2026-11-15"
+  "updated_at": "2026-11-17"
 }
