@@ -3,7 +3,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <img src="./assets/banner-light.svg" alt="Pin Chiu — Computational Biology · AI Systems · Systems Software" width="100%">
+  <img src="./assets/banner-light.svg" alt="pinchiu — Computational Biology · AI Systems · Systems Software" width="100%">
 </picture>
 
 <p>
